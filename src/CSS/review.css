@@ -1,0 +1,191 @@
+@media only screen and (max-width :640px) {
+    #owning-review-div {
+        min-height: 400px;
+        padding: 2px 3px;
+    }
+    #arrow {
+        min-width: 30px;
+        
+        margin-top: 18%;
+    }
+    #heading-review-div {
+        display: grid;
+        justify-self: center;
+        text-align: center;
+    }
+    #card1-mapping-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #card1-mapping-div span {
+        display: inline-flex;
+        gap: 5px;
+        margin: 4px 0px;
+    }
+    #card2-img-div img {
+        width: fit-content;
+        border-radius: 100%;
+        max-width: 100px;
+        min-width: 90px;
+        min-height: 50px;
+        padding: 5px;
+        background-color: transparent;
+        border: 1px solid #333;
+        
+    }
+    #card1-mapping-div textarea {
+        background-color: transparent;
+        min-height: 100px;
+        text-align: center;
+        min-width: 200px;
+        resize: none;
+    }
+    #card2-mapping-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 2px;
+        margin: 5px 1px;
+    }
+    #card2-detail-div {
+        display: flex;
+        flex-direction: column;
+    }
+    #heading-review-div big {
+        font-weight: 600;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+    }
+    #hosting-review-div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        gap: 25px;
+        overflow: auto;
+        white-space: nowrap;
+    }
+    #owner-mapping-div {
+        border-radius: 2px;
+        padding: 5px;
+        background-color: rgb(226 232 240);
+        display: flex;
+        min-width: 300px;
+        width: fit-contents;
+        flex-direction: column;
+    }
+    #container-review-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 5px 2px;
+        margin-top: 5%;
+    }
+    #heading-review-div span {
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (min-width :640px) {
+    #owning-review-div {
+        min-height: 450px;
+        padding: 2px 3px;
+    }
+    #arrow {
+        min-width: 30px;
+        
+        margin-top: 18%;
+    }
+    #heading-review-div {
+        display: grid;
+        justify-self: center;
+        text-align: center;
+
+    }
+    #card1-mapping-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #card1-mapping-div span {
+        display: inline-flex;
+        font-size: 18px;
+        gap: 5px;
+        margin: 4px 0px;
+    }
+    #card2-img-div img {
+        width: fit-content;
+        border-radius: 100%;
+        max-width: 100px;
+        min-width: 90px;
+        min-height: 50px;
+        padding: 5px;
+        background-color: transparent;
+        border: 1px solid #333;
+        
+    }
+    #card1-mapping-div textarea {
+        background-color: transparent;
+        min-height: 120px;
+        text-align: center;
+        font-size: 18px;
+        min-width: 200px;
+        resize: none;
+    }
+    #card2-mapping-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 2px;
+        margin: 5px 1px;
+    }
+    #card2-detail-div {
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+    }
+    #heading-review-div big {
+        font-weight: 600;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+    }
+    #hosting-review-div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        gap: 25px;
+        overflow: auto;
+        white-space: nowrap;
+    }
+    #owner-mapping-div {
+        border-radius: 2px;
+        padding: 5px;
+        background-color: rgb(226 232 240);
+        display: flex;
+        min-width: 300px;
+        width: fit-contents;
+        flex-direction: column;
+    }
+    #container-review-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 5px 2px;
+        margin-top: 5%;
+    }
+    #heading-review-div span {
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+
+}

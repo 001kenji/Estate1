@@ -1,0 +1,264 @@
+@media only screen and (max-width : 640px) {
+    #master-navbar-div{
+        display: flex;
+        border-bottom: 1px solid #333;
+        justify-content: space-between;
+        padding: 0px 5px;
+        height: fit-content;
+        
+        max-height: fit-content;
+        
+    }
+    #navbar-ham-div {
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+        
+        
+        
+    }
+    #navbar-alpha-div {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+       
+    }
+    #navbar-content-div {
+        align-items: center;
+        text-align: left;
+        display: none;
+        
+        align-content: center;
+    }
+    #navbar-content-list {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 3px;
+        background-color: transparent;
+        font-weight: 600;
+        
+        padding: 2px;
+        width: 300px;
+    }
+    #navbar-content-list li {
+        color: black;
+         border-radius: 2px;
+        width: 100%;
+        
+    }
+    #navbar-content-list li:hover, li:focus {
+        color: azure;
+        background-color: rgb(21 128 61 );
+    }
+    #navbar-icon-div {
+        max-width: 200px;
+        align-items: center;
+        height: 100px;
+        justify-self: center;
+        
+        display: flex;
+        
+    }
+    #navbar-icon-div img {
+        width: 150px;
+    }
+}
+@media only screen and (min-width : 640px) {
+    #master-navbar-div{
+        display: flex;
+        border-bottom: 1px solid #333;
+        justify-content: space-between;
+        padding: 0px 5px;
+        height: fit-content;
+        
+        max-height: fit-content;
+        
+    }
+    #navbar-ham-div {
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        
+        
+        
+    }
+    #navbar-alpha-div {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+       
+    }
+    #navbar-content-div {
+        align-items: center;
+        text-align: left;
+        display: none;
+        
+        align-content: center;
+    }
+    #navbar-content-list {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 3px;
+        background-color: transparent;
+        font-weight: 600;
+        
+        padding: 2px;
+        width: 300px;
+    }
+    #navbar-content-list li {
+        color: black;
+         border-radius: 2px;
+        width: 100%;
+        
+    }
+    #navbar-content-list li:hover, li:focus {
+        color: azure;
+        background-color: rgb(21 128 61 );
+    }
+    #navbar-icon-div {
+        max-width: 200px;
+        align-items: center;
+        height: 100px;
+        justify-self: center;
+        
+        display: flex;
+        
+    }
+    #navbar-icon-div img {
+        width: 200px;
+    }
+}
+@media only screen and (min-width : 780px) {
+    #master-navbar-div{
+        display: flex;
+        border-bottom: 1px solid #333;
+        justify-content: space-between;
+        padding: 0px 5px;
+        height: fit-content;
+        
+        max-height: fit-content;
+        
+    }
+    #navbar-ham-div {
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        
+        
+        
+    }
+    #navbar-alpha-div {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+       
+    }
+    #navbar-content-div {
+        align-items: center;
+        text-align: left;
+        display: none;
+        
+        align-content: center;
+    }
+    #navbar-content-list {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 3px;
+        background-color: transparent;
+        font-weight: 600;
+        
+        padding: 2px;
+        width: 300px;
+    }
+   
+    #navbar-content-list li {
+        color: black;
+         border-radius: 2px;
+        width: 100%;
+        
+    }
+    #navbar-content-list li:hover, li:focus {
+        color: azure;
+        background-color: rgb(21 128 61 );
+    }
+    #navbar-icon-div {
+        max-width: 200px;
+        align-items: center;
+        height: 100px;
+        justify-self: center;
+        
+        display: flex;
+        
+    }
+    #navbar-icon-div img {
+        width: 200px;
+    }
+}
+@media only screen and (min-width : 1024px) {
+    #master-navbar-div{
+        display: flex;
+        border-bottom: 1px solid #333;
+        justify-content: space-between;
+        padding: 0px 5px;
+        height: fit-content;
+        
+        max-height: fit-content;
+        
+    }
+    #navbar-ham-div {
+        display: none;
+        justify-content: center;
+        margin-top: 5%;
+        
+        
+        
+    }
+    #navbar-alpha-div {
+        display: flex;
+        flex-direction: row;
+        height: fit-content;
+        justify-content: space-around;
+       margin: 0px 5px;
+        width: 100%;
+       
+    }
+    #navbar-content-div {
+        align-items: center;
+        text-align: left;
+        display: none;
+        
+        align-content: center;
+    }
+    #navbar-content-list {
+        display: flex;
+        flex-direction: row;
+        font-size: 20px;
+        gap: 18px;
+        background-color: transparent;
+        font-weight: bold;
+        padding: 2px;
+        width: 300px;
+    }
+    #navbar-content-list li {
+        color: black;
+         border-radius: 2px;
+        width: 100%;
+        
+    }
+    #navbar-content-list li:hover, li:focus {
+        color: azure;
+        background-color: rgb(21 128 61 );
+    }
+    #navbar-icon-div {
+        max-width: 200px;
+        align-items: center;
+        height: 100px;
+        justify-self: center;
+        
+        display: flex;
+        
+    }
+    #navbar-icon-div img {
+        width: 200px;
+    }
+}

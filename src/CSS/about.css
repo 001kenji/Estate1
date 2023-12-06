@@ -1,0 +1,172 @@
+@media only screen and (max-width : 640px) {
+    #about-own-div {
+       min-height: 480px;
+        padding: 6px;
+       
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    #more-info-div textarea {
+        min-height: 150px;
+        max-height: 200px;
+        resize: vertical;
+        text-align: center;
+        padding: 0px 5px;
+        color: black;
+    }
+    #more-info-div {
+        display: grid;
+        margin: 1px 4px;
+    }
+    #more-info-div button {
+
+        width: fit-content;
+        min-width: 80px;
+        margin: auto;
+        padding: 5px ;
+        border-radius: 2px;
+        font-weight: 500;
+    }
+    #more-info-div small {
+        color: gray;
+        font-weight: 600;
+    }
+    #more-info-div big {
+        font-weight: 600;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #mapped-img-div {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    #mapped-info-div {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+    #mapped-info-div big {
+        font-size: large;
+        text-align: center;
+        font-weight: 600;
+    }
+    #mapped-info-div textarea {
+        background-color: transparent;
+        text-align: center;
+        
+        color: black;
+        resize: vertical;
+        max-height: 200px;
+        min-height: 150px;
+    }
+    #about-slider-div {
+        display: flex;
+        
+        flex-direction: row;
+        gap: 56px;
+        height: fit-content;
+        overflow: auto;
+        white-space: nowrap;
+    }
+    #about-mapped-div:hover {
+        border-bottom: 4px solid green;
+    }
+    #about-mapped-div {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        max-height: 400px;
+        border: 1px solid #333;
+        border-radius: 5px;
+        padding: 5px;
+    }
+}
+@media only screen and (min-width : 640px) {
+    #about-own-div {
+       min-height: 580px;
+        padding: 6px;
+       
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    #more-info-div textarea {
+        min-height: 150px;
+        max-height: 200px;
+        resize: vertical;
+        text-align: center;
+        padding: 0px 5px;
+        color: black;
+    }
+    #more-info-div {
+        display: grid;
+        margin: 1px 4px;
+    }
+    #more-info-div button {
+
+        width: fit-content;
+        min-width: 80px;
+        margin: auto;
+        padding: 5px ;
+        border-radius: 2px;
+        font-weight: 500;
+    }
+    #more-info-div small {
+        color: gray;
+        font-weight: 600;
+    }
+    #more-info-div big {
+        font-weight: 600;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #mapped-img-div {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    #mapped-info-div {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+    #mapped-info-div big {
+        font-size: large;
+        text-align: center;
+        font-weight: 600;
+    }
+    #mapped-info-div textarea {
+        background-color: transparent;
+        text-align: center;
+        color: black;
+        font-size: 18px;
+        resize: vertical;
+        max-height: 200px;
+        min-height: 180px;
+    }
+    #about-slider-div {
+        display: flex;
+        
+        flex-direction: row;
+        gap: 56px;
+        height: fit-content;
+        overflow: auto;
+        white-space: nowrap;
+    }
+    #about-mapped-div:hover {
+        border-bottom: 4px solid green;
+    }
+    #about-mapped-div {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        max-height: 400px;
+        border: 1px solid #333;
+        border-radius: 5px;
+        padding: 5px;
+    }
+}

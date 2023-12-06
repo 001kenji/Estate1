@@ -1,0 +1,126 @@
+@media only screen and (max-width : 640px) {
+ #owning-footer-div {
+    
+    min-height: 400px;
+    padding: 4px;
+ }
+ #summery-footer-div {
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: left;
+
+ }
+ #social-footer-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5px 2px;
+    border-top: 1px solid chocolate;
+    border-bottom: 1px solid chocolate;
+    
+    padding: 5px;
+ }
+ #developer-footer-div {
+    text-align: center;
+    padding: 5px 0px;
+ }
+ #social-footer-div span {
+   display: inline-flex;
+   gap: 5px;
+   text-align: center;
+ }
+ #info-footer-div {
+    display: grid;
+    grid-gap: 10px;
+    border-top: 1px solid chocolate;
+    text-align: center;
+    justify-content: center;
+    margin: 5px 2px;
+    padding: 4px;
+ }
+ #summery-footer-div img {
+    width: 160px;
+    margin: 9px 1px;
+ }
+ #summery-footer-div textarea {
+    background-color: transparent;
+    outline-color: transparent;
+    resize: vertical;
+    text-align: center;
+    padding: 5px;
+    width: 80%;
+    margin: auto;
+    min-height: 150px;
+    max-height: 155px;
+
+ }
+
+}
+
+@media only screen and (min-width : 640px) {
+   #owning-footer-div {
+      
+      min-height: 400px;
+      padding: 4px;
+   }
+   #summery-footer-div {
+      display: flex;
+      
+      flex-direction: column;
+      justify-content: left;
+  
+   }
+   #social-footer-div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+      text-align: center;
+      margin: 5px 2px;
+      border-top: 1px solid chocolate;
+      border-bottom: 1px solid chocolate;
+      
+      padding: 5px;
+   }
+   #developer-footer-div {
+      text-align: center;
+      padding: 5px 0px;
+   }
+   #social-footer-div span {
+     display: inline-flex;
+     gap: 5px;
+     text-align: center;
+   }
+   #info-footer-div {
+      display: grid;
+      grid-gap: 10px;
+      border-top: 1px solid chocolate;
+      text-align: center;
+      font-size: 18px;
+      justify-content: center;
+      margin: 5px 2px;
+      padding: 4px;
+   }
+   #summery-footer-div img {
+      width: 250px;
+      margin: 9px 1px;
+   }
+   #summery-footer-div textarea {
+      background-color: transparent;
+      outline-color: transparent;
+      resize: vertical;
+      text-align: center;
+      font-size: 18px;
+      padding: 5px;
+      width: 80%;
+      margin: auto;
+      min-height: 150px;
+      max-height: 155px;
+  
+   }
+  
+  }

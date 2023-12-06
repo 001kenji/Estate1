@@ -1,0 +1,24 @@
+[
+    {
+      "title": "Luxurious Living Spaces",
+      "information": "Explore the epitome of elegance and comfort with our luxurious living spaces. Immerse yourself in a lifestyle of sophistication and modern design. Discover the perfect home that reflects your unique style.",
+      "name": "Grace Thompson",
+      "img" : "",
+      "residence": "Cityview Residences"
+    },  
+    {
+      "title": "Prime Investment Opportunities",
+      "information": "Unlock prime investment opportunities in the real estate market. Our expert team identifies lucrative properties with high potential returns. Seize the chance to grow your wealth through strategic real estate investments.",
+      "name": "Alex Rodriguez",
+      "img" : "",
+      "residence": "Horizon Plaza"
+    },
+    {
+      "title": "Family-Friendly Homes",
+      "information": "Discover family-friendly homes designed for comfort and joy. Our range of properties includes spacious layouts, safe neighborhoods, and proximity to schools and parks. Create lasting memories in a home that suits your family's needs.",
+      "name": "Emily Harris",
+      "img" : "",
+      "residence": "Serenity Street"
+    }
+  ]
+  

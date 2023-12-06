@@ -1,0 +1,132 @@
+@media only screen and (max-width : 640px)  {
+    #agent-owning-div {
+        min-height: 380px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #more-agent-div {
+        display: flex;
+        flex-direction: column;
+    }
+    #more-agent-div small {
+        font-size: normal;
+    }
+    #more-agent-div big {
+        padding: 5px 0px;
+        text-align: center;
+        font-size: x-large;
+    }
+    #social-agent-div {
+        display: flex;
+        flex-direction: column;
+        padding: 5px 1px;
+    }
+    #social-agent-div span {
+        display: inline-flex;
+        width: fit-content;
+        gap: 4px;
+        margin: 5px 1px;
+    }
+    #more-agent-div textarea {
+        background-color: transparent;
+        min-height: 150px;
+        text-align: center;
+        padding: 1px 5px;
+    
+    }
+    #more-agent-div button {
+        width: fit-content;
+        min-width: 100px;
+        margin: auto;
+
+    }
+    #agent-details-div {
+        display: flex;
+        text-align: center;
+        
+        flex-direction: column;
+        padding: 3px;
+        margin: 5px 0px;
+        margin-top: 20px;
+    }
+    #agent-details-div big {
+        font-size: 20px;
+    }
+    #agent-details-div textarea {
+        background-color: transparent;
+        min-height: 150px;
+        resize: vertical;
+        max-height: 160px;
+        text-align: center;
+    }
+
+}
+@media only screen and (min-width : 640px)  {
+    #agent-owning-div {
+        min-height: 380px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #more-agent-div {
+        display: flex;
+        flex-direction: column;
+    }
+    #more-agent-div small {
+        font-size: large;
+    }
+    #more-agent-div big {
+        padding: 5px 0px;
+        text-align: center;
+        font-size: xx-large;
+    }
+    #social-agent-div {
+        display: flex;
+        flex-direction: column;
+        padding: 5px 1px;
+    }
+    #social-agent-div span {
+        display: inline-flex;
+        width: fit-content;
+        gap: 4px;
+        font-size: 18px;
+        margin: 5px 1px;
+    }
+    #more-agent-div textarea {
+        background-color: transparent;
+        min-height: 150px;
+        text-align: center;
+        font-size: 18px;
+        padding: 1px 5px;
+    
+    }
+    #more-agent-div button {
+        width: fit-content;
+        min-width: 100px;
+        font-size: 18px;
+        margin: auto;
+
+    }
+    #agent-details-div {
+        display: flex;
+        text-align: center;
+        
+        flex-direction: column;
+        padding: 3px;
+        margin: 5px 0px;
+        margin-top: 20px;
+    }
+    #agent-details-div big {
+        font-size: 25px;
+    }
+    #agent-details-div textarea {
+        background-color: transparent;
+        min-height: 150px;
+        font-size: 18px;
+        resize: vertical;
+        max-height: 160px;
+        text-align: center;
+    }
+
+}

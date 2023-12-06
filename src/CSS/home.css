@@ -1,0 +1,106 @@
+@media only screen and (max-width : 640px) {
+    #home-owning-div {
+        display: grid;
+        min-height: 400px;
+        align-items: center;
+        animation-name: slider;
+        animation-iteration-count: infinite;
+        animation-duration: 16s;
+        background-repeat: no-repeat;
+        background-size: cover;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: backwards;
+        animation-delay: 1s;
+    }
+    @keyframes slider {
+        0%{background-image: url('../assets/images/uploads/slider_00.jpg');}
+        20%{background-image: url('../assets/images/uploads/slider_01.jpg');}
+        40%{background-image: url('../assets/images/uploads/slider_02.jpg');}
+        60%{background-image: url('../assets/images/uploads/slider_03.jpg');}
+        80%{background-image: url('../assets/images/uploads/slider_04.jpg');}
+        100%{background-image: url('../assets/images/uploads/slider_05.jpg');}
+    }
+    #home-content-div {
+        display: grid;
+        grid-gap: 5px;
+        align-content: center;
+        
+        border-radius: 2px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 5px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #home-content-div textarea {
+        height: fit-content;
+        max-height: 100px;
+        min-height: 80px;
+        background-color: transparent;
+        text-align: center;
+        padding: 1px 4px;
+    }
+    #home-content-div button {
+        width: fit-content;
+        min-width: 100px;
+        font-weight: 600;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}
+@media only screen and (min-width : 640px) {
+    #home-owning-div {
+        display: grid;
+        min-height: 600px;
+        align-items: center;
+        animation-name: slider;
+        animation-iteration-count: infinite;
+        animation-duration: 16s;
+        background-repeat: no-repeat;
+        background-size: cover;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: backwards;
+        animation-delay: 1s;
+    }
+    @keyframes slider {
+        0%{background-image: url('../assets/images/uploads/slider_00.jpg');}
+        20%{background-image: url('../assets/images/uploads/slider_01.jpg');}
+        40%{background-image: url('../assets/images/uploads/slider_02.jpg');}
+        60%{background-image: url('../assets/images/uploads/slider_03.jpg');}
+        80%{background-image: url('../assets/images/uploads/slider_04.jpg');}
+        100%{background-image: url('../assets/images/uploads/slider_05.jpg');}
+    }
+    #home-content-div {
+        display: grid;
+        grid-gap: 5px;
+        align-content: center;
+        
+        border-radius: 2px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 5px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #home-content-div textarea {
+        height: fit-content;
+        min-height: 120px;
+        max-height: 100px;
+        background-color: transparent;
+        text-align: center;
+        padding: 1px 4px;
+    }
+    #home-content-div button {
+        width: fit-content;
+        min-width: 100px;
+        font-weight: 600;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}
